@@ -6,12 +6,12 @@ import PageWrapper from '@/components/page-wrapper';
 import { fadeInUp, staggerContainer } from '@/lib/animations';
 
 const projects = [
-  // {
-  //   title: 'E-Commerce Analytics Dashboard',
-  //   description: 'Real-time analytics platform built with Python and React, providing insights into sales, customer behavior, and trends.',
-  //   tags: ['Python', 'React', 'PostgreSQL', 'Data Analysis'],
-  //   color: 'from-accent to-secondary',
-  // },
+  {
+    title: "Earthquake Visualizer Web Application",
+    description: "A React-based application that visualizes real-time earthquake activity worldwide using an interactive map and public API data.",
+    tags: ['JavaScript', 'React', 'Leaflet', 'API Integration', 'Data Visualization', 'Geospatial Data', 'Interactive Map', 'USGS API'],
+    color: 'from-accent to-secondary',
+  },
   {
     title: 'LAIRA AI TUTOR',
     description: 'An AI-powered learning assistant built using Python, Django, React, and OpenAI API. Features include student login, smart chat, subject-based tutoring, and progress tracking.',
