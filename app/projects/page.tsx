@@ -18,12 +18,12 @@ const projects = [
     tags: ["Python", "Django", "React", "OpenAI", "PostgreSQL"],
     color: 'from-purple-500 to-pink-500',
   },
-  // {
-  //   title: 'Data Pipeline Automation',
-  //   description: 'Automated ETL pipeline processing millions of records daily, with error handling and performance optimization.',
-  //   tags: ['Python', 'Pandas', 'AWS', 'PostgreSQL'],
-  //   color: 'from-blue-500 to-cyan-500',
-  // },
+  {
+    title: 'Amazon Product Rating Prediction System (ML + FastAPI + Dashboard)',
+    description: 'Built an end-to-end Machine Learning application that predicts Amazon product ratings using pricing and customer engagement metrics.',
+    tags: ["Machine Learning", "Data Science","Fast API", "streamlit","python", "scikit-learn","plotly","plotly", "API Development",],
+    color: 'from-blue-500 to-cyan-500',
+  },
   {
     title: "BMW Sales Analytics",
     description:  "Advanced sales performance analysis of BMW models using Python and SQL. Identified profit by model, transmission type, region, and trends using Power BI dashboards.",
@@ -173,7 +173,7 @@ export default function Projects() {
                   {/* Links */}
                   <div className="flex gap-4 pt-4 border-t border-border">
                     <motion.a
-                      href="#"
+                      href="https://github.com/Rahul-45code"
                       whileHover={{ scale: 1.1, x: 5 }}
                       whileTap={{ scale: 0.95 }}
                       className="flex items-center gap-2 text-sm text-accent hover:text-secondary transition-colors"
@@ -181,7 +181,7 @@ export default function Projects() {
                       <ExternalLink size={16} /> View Project
                     </motion.a>
                     <motion.a
-                      href="#"
+                      href="https://github.com/Rahul-45code"
                       whileHover={{ scale: 1.1, x: 5 }}
                       whileTap={{ scale: 0.95 }}
                       className="flex items-center gap-2 text-sm text-foreground/60 hover:text-accent transition-colors ml-auto"
